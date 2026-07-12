@@ -28,7 +28,7 @@ The architecture diagram shows the power management unit, sensors, controller, a
 - Automatic fan control based on temperature/humidity thresholds
 - Automatic source selection between solar and battery power
 - OLED display with live status
-- Web dashboard at `/`
+- Web dashboard
 - JSON status endpoint at `/json`
 
 ## Hardware
