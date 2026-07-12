@@ -14,6 +14,12 @@ This project runs on an ESP32 and manages a greenhouse using:
 
 The controller automatically switches between solar and battery power based on solar availability, runs cooling and irrigation loads, and exposes system status through a web interface.
 
+## Architecture
+
+![System Architecture](images/architecture.png)
+
+The architecture diagram shows the power management unit, sensors, controller, actuators, and cloud reporting flow.
+
 ## Features
 
 - Solar voltage, current, and power measurement
