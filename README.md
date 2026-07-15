@@ -141,6 +141,30 @@ http://<device-ip>/json
 - The repository includes `docs/.gitkeep` to preserve the `docs` folder in Git.
 - If your sensors return invalid readings, check wiring and power.
 
+
+## Hardware Photos
+
+Photos of the prototype hardware are stored in the repository under `hardware/Pictures/`.
+
+![Buck converter input](hardware\Pictures\Preliminary hardware tests\May 7, 2026, 03_40_44 PM.png)
+
+![Buck converter output](hardware\Pictures\Preliminary hardware tests\May 7, 2026, 03_25_09 PM.png)
+
+![Indoor loaded voltage of solar panel ](hardware\Pictures\Preliminary hardware tests\May 7, 2026, 03_40_44 PM.png)
+
+![Outdoor solar panel tests](hardware\Pictures\Preliminary hardware tests\photo_2026-07-14_14-24-21.jpg)
+(hardware\Pictures\Preliminary hardware tests\photo_2026-07-14_14-24-26.jpg)
+(hardware\Pictures\Preliminary hardware tests\photo_2026-07-14_14-24-34.jpg)
+
+![Final Prototype ](hardware\Pictures\Prototype\May 8, 2026, 11_28_25 PM.png)
+
+![Prototype LED installation ](hardware\Pictures\Prototype\photo_2026-07-14_14-24-42.jpg")
+(hardware\Pictures\Prototype\photo_2026-07-14_14-24-53.jpg)
+
+```
+
+
+
 ## License
 
 This project is licensed under the MIT License. See `LICENSE` for details.
