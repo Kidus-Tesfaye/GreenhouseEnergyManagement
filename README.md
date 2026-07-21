@@ -18,7 +18,7 @@ The controller automatically switches between solar and battery power based on s
 
 ![System Architecture](images/architecture.png)
 
-The architecture diagram shows the power management unit, sensors, controller, actuators, and cloud reporting flow.
+The architecture diagram shows the power management unit, sensors, controller, actuators, and local web reporting flow.
 
 ## Features
 
@@ -45,6 +45,12 @@ Required components:
 - Fan, water pump, LED load
 
 The `hardware/BOM.csv` file contains the components used for the prototype and approximate cost.
+
+## Simulation
+
+The greenhouse control circuit was designed and simulated in [Proteus 8](https://www.labcenter.com/). The project file lives at [`hardware/simulation/greenhouse.pdsprj`](hardware/simulation/greenhouse.pdsprj) and requires Proteus 8 (or later) to open.
+
+![Greenhouse simulation schematic](images/greenhouse-simulation.png)
 
 ## Wiring
 
@@ -146,23 +152,24 @@ http://<device-ip>/json
 
 Photos of the prototype hardware are stored in the repository under `hardware/Pictures/`.
 
-![Buck converter input](hardware\Pictures\Preliminary hardware tests\May 7, 2026, 03_40_44 PM.png)
+### Preliminary hardware tests
 
-![Buck converter output](hardware\Pictures\Preliminary hardware tests\May 7, 2026, 03_25_09 PM.png)
+![Buck converter output](hardware/Pictures/Preliminary%20hardware%20tests/May%207,%202026,%2003_25_09%20PM.png)
 
-![Indoor loaded voltage of solar panel ](hardware\Pictures\Preliminary hardware tests\May 7, 2026, 03_40_44 PM.png)
+![Buck converter input](hardware/Pictures/Preliminary%20hardware%20tests/May%207,%202026,%2003_40_44%20PM.png)
 
-![Outdoor solar panel tests](hardware\Pictures\Preliminary hardware tests\photo_2026-07-14_14-24-21.jpg)
-(hardware\Pictures\Preliminary hardware tests\photo_2026-07-14_14-24-26.jpg)
-(hardware\Pictures\Preliminary hardware tests\photo_2026-07-14_14-24-34.jpg)
+![Indoor loaded voltage of solar panel](hardware/Pictures/Preliminary%20hardware%20tests/May%208,%202026,%2002_01_12%20AM.png)
 
-![Final Prototype ](hardware\Pictures\Prototype\May 8, 2026, 11_28_25 PM.png)
+![Outdoor solar panel tests](hardware/Pictures/Preliminary%20hardware%20tests/photo_2026-07-14_14-24-26.jpg)
 
-![Prototype LED installation ](hardware\Pictures\Prototype\photo_2026-07-14_14-24-42.jpg")
-(hardware\Pictures\Prototype\photo_2026-07-14_14-24-53.jpg)
 
-```
+### Prototype
 
+![Final Prototype](hardware/Pictures/Prototype/May%208,%202026,%2011_28_25%20PM.png)
+
+![Prototype LED installation](hardware/Pictures/Prototype/photo_2026-07-14_14-24-42.jpg)
+
+![Prototype LED installation](hardware/Pictures/Prototype/photo_2026-07-14_14-24-53.jpg)
 
 
 ## License
